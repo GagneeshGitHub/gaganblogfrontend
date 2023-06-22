@@ -1,0 +1,18 @@
+.listBoxClass{
+    width: 100%;
+    border: 2px solid transparent;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(19,19,19);
+}
+
+.listBoxClass:hover {
+    cursor: pointer;
+    background-color: skyblue;
+}
+
+.headingListBox{
+    margin-left: 5px;
+    color: rgb(235, 135, 135);
+    font-weight: 500;
+}

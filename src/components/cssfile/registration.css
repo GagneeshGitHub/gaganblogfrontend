@@ -1,0 +1,126 @@
+.signUpSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.signUpForm{
+    width: 500px;
+    background-color: rgb(12, 12, 12);
+    margin-top: 100px;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.signUpHeading{
+    margin: 0%;
+    color: rgb(235, 135, 135);
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 25px;
+}
+
+.userSignUpDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.passSignUpDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.authorSignUpDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.authorSignUpDiv label{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.userSignUpDiv label{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.passSignUpDiv label{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.authorSignUpDiv input{
+    width: 80%;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+} 
+
+.userSignUpDiv input{
+    width: 80%;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+}   
+
+.passSignUpDiv input{
+    width: 80%;
+    margin-top: 5px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.userSignUpDiv input:focus{
+    outline: none;
+}
+
+.passSignUpDiv input:focus{
+    outline: none;
+}
+
+.btnSignUpDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.loginSignUpBtn{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.loginSignUpBtn:hover{
+    background-color: skyblue;
+}
+
+/* class for warning and wrong reg */
+
+.signUpWarning{
+    color: rgb(255, 95, 95);
+    font-size: medium;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}

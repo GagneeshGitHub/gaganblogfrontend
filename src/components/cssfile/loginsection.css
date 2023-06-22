@@ -1,0 +1,105 @@
+.loginSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.loginForm{
+    width: 500px;
+    background-color: rgb(12, 12, 12);
+    margin-top: 100px;
+    border-radius: 5px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.loginHeading{
+    margin: 0%;
+    color: rgb(235, 135, 135);
+    font-weight: 700;
+    font-size: 50px;
+    margin-left: 25px;
+}
+
+.userDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.passDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.userDiv label{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.passDiv label{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.userDiv input{
+    width: 80%;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+}   
+
+.passDiv input{
+    width: 80%;
+    margin-top: 5px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.userDiv input:focus{
+    outline: none;
+}
+
+.passDiv input:focus{
+    outline: none;
+}
+
+.btnDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.loginBtn{
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.loginBtn:hover{
+    background-color: skyblue;
+}
+
+/* class for warning and wrong reg */
+
+.loginWarning{
+    color: rgb(255, 95, 95);
+    font-size: medium;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}

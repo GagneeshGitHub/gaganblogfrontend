@@ -1,0 +1,43 @@
+.uploaderProfileSec{
+    width: 90%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: rgb(12, 12, 12);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.imageCircleDiv{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+
+.imageInCircle{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.authorDetClass{
+}
+
+.authorDetClass h4{
+    color: white;
+    margin: 0%;
+    margin-left: 10px;
+}
+
+.authorDetClass h2{
+    color: white;
+    margin: 0%;
+    margin-left: 10px;
+    color: rgb(235, 135, 135);
+}

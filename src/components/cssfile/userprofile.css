@@ -1,0 +1,52 @@
+.userProfileClass{
+    width: 100%;
+}
+
+.innSectionUPC{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.userProfileImage{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 15px solid black;
+    overflow: hidden;
+}
+
+.profileIconUPC{
+    width: 100%;
+    height: 100%;
+    margin-top: 15%;
+}
+
+.usernameDivUPC{
+    color: rgb(12, 12, 12);
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.logoutBtn{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(80, 80, 80);
+    margin-bottom: 50px;
+}
+
+.logoutBtn:hover{
+    background-color: rgb(150, 150, 150);
+}

@@ -1,0 +1,17 @@
+/* Main blog class */
+.blogPageClass{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+/* Left and right section inside the main class */
+.leftBlogContent{
+    width: 75%;
+    background-color: rgba(235, 135, 135, 0.171);
+    padding-bottom: 20px;
+}
+
+.rightSearchContent{
+    width: 25%;
+}

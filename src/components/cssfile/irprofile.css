@@ -1,0 +1,16 @@
+.navLinkPr{
+    text-decoration: none;
+    color: white;
+}
+
+.navBtnLinkPr{
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.profileIcon{
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
